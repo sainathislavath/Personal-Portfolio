@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { navLinksdata } from "../../constants";
+import DarkMode from "./DarkMode";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);

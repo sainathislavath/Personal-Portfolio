@@ -1,7 +1,5 @@
 import React from "react";
 import {
-  FaFacebookF,
-  FaTwitter,
   FaLinkedinIn,
   FaGithubAlt,
   FaWhatsapp,
@@ -33,13 +31,13 @@ const ContactLeft = () => {
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone:{" "}
-          <span className="text-lightText">
+          <span className="text-lightText hover:text-designColor cursor-pointer duration-300">
             <a href="Tel:9542667793">+91 9542667793</a>
           </span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email:{" "}
-          <span className="text-lightText">
+          <span className="text-lightText hover:text-designColor cursor-pointer duration-300">
             <a href="mailto:sainathislavath7@gmail.com">
               sainathislavath7@gmail.com
             </a>

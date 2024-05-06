@@ -10,14 +10,14 @@ const Projects = () => {
     {
       title: "CHAT APP (MERN)",
       des: " ChatApp is a full-stack web application that allows users to chat with each other in real-time. It provides a user-friendly interface for registration, login, and messaging.",
-      src: "https://icons.iconarchive.com/icons/alecive/flatwoken/512/Apps-Chat-icon.png",
+      src: "https://img.freepik.com/premium-vector/chat-app-logo-design-template-can-be-used-icon-chat-application-logo_605910-1724.jpg",
       githubLink: "https://github.com/sainath161/ChatApp",
       demoLink: "https://chat-app-wp-ykcy.onrender.com/",
     },
     {
       title: "CHAT APP (FIREBASE)",
       des: " This project is a chat application that allows users to send text messages, images, videos, and voice recordings to each other in real-time.",
-      src: "https://i0.wp.com/www.titanui.com/wp-content/uploads/2014/02/03/iOS-Chat-App-Icon-PSD.png",
+      src: "https://cdn5.vectorstock.com/i/1000x1000/58/04/chat-messaging-app-logo-design-vector-21795804.jpg",
       githubLink: "https://github.com/sainath161/chat-App",
       demoLink: "https://chatappsample.netlify.app/",
     },
@@ -123,14 +123,14 @@ const Projects = () => {
     {
       title: "ROCK PAPER SCISSORS",
       des: " This is a basic implementation of the Rock, Paper, Scissors game. It allows users to play the classic game against the computer.",
-      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rock-paper-scissors.svg/1200px-Rock-paper-scissors.svg.png",
+      src: "https://a0.anyrgb.com/pngimg/1548/612/points-system-h-7-rockpaperscissors-rpa-rock-paper-scissors-steemit-scissors-digital-data-paper-icons.png",
       githubLink: "https://github.com/sainath161/Rock-Paper-Scissor",
       demoLink: "https://sainath161.github.io/Rock-Paper-Scissor/",
     },
     {
       title: "SNAKE GAME",
       des: " This Snake game implementation features a grid-based canvas where players control a snake to eat food and grow, avoiding collisions with walls and itself.",
-      src: "https://png.pngtree.com/png-clipart/20210309/original/pngtree-green-snake-game-logo-png-image_5846464.jpg",
+      src: "https://wallpaperaccess.com/full/8552472.jpg",
       githubLink: "https://github.com/sainath161/Snake-Game",
       demoLink: "https://sainath161.github.io/Snake-Game/",
     },
