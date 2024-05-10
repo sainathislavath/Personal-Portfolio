@@ -5,7 +5,7 @@ import { FaGlobe } from "react-icons/fa";
 const ProjectsCard = ({
   title,
   des,
-  skills,
+  text,
   skillUsed,
   src,
   githubLink,
@@ -34,16 +34,20 @@ const ProjectsCard = ({
           alt="src"
         />
         {isHovered && (
-          <div className="absolute top-0 left-0 w-full h-full bg-blue-900 bg-opacity-80 flex flex-col justify-center items-center text-white">
-            <h3 className="text-lg font-bold text-designColor">{skills}</h3>
-            <p className="text-l mt-1 p-3 text-justify">{skillUsed}</p>
+          <div className="absolute top-0 left-0 w-full h-full bg-[#202327] bg-opacity-70 flex flex-col justify-center items-center text-white">
+            <h3 className="text-2xl font-bold text-designColor select-none">
+              {text}
+            </h3>
+            <p className="text-l mt-1 p-3 text-justify font-bold select-none">
+              {skillUsed}
+            </p>
           </div>
         )}
       </div>
       <div className="w-full mt-5 flex flex-col  gap-6">
         <div>
           <div className="flex items-center justify-between">
-            <h3 className="text-base uppercase text-designColor font-normal">
+            <h3 className="text-base uppercase text-designColor font-normal select-none">
               {title}
             </h3>
             <div className="flex gap-2">
@@ -59,7 +63,7 @@ const ProjectsCard = ({
               </span>
             </div>
           </div>
-          <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
+          <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300 text-justify select-none">
             {des}
           </p>
         </div>

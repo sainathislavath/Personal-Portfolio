@@ -13,7 +13,7 @@ const Projects = () => {
       src: "https://img.freepik.com/premium-vector/chat-app-logo-design-template-can-be-used-icon-chat-application-logo_605910-1724.jpg",
       githubLink: "https://github.com/sainath161/ChatApp",
       demoLink: "https://chat-app-wp-ykcy.onrender.com/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed:
         "React, Tailwind CSS, Daisy UI, Zustand, NodeJS, Express JS, Mongo DB, socket.io, JWT",
     },
@@ -23,7 +23,7 @@ const Projects = () => {
       src: "https://cdn5.vectorstock.com/i/1000x1000/58/04/chat-messaging-app-logo-design-vector-21795804.jpg",
       githubLink: "https://github.com/sainath161/chat-App",
       demoLink: "https://chatappsample.netlify.app/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed: "React, Firebase, Emoji Picker",
     },
     {
@@ -32,7 +32,7 @@ const Projects = () => {
       src: "https://i.pinimg.com/564x/19/c1/9c/19c19c00ddde609bf93c2a1cf1929dee.jpg",
       githubLink: "https://github.com/sainath161/Todo",
       demoLink: "https://todo-app-t8k9.onrender.com/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed:
         "HTML, CSS, JavaScript, ejs, Bootstrap, Axios, Node.js, Express.js, MongoDB, Session-based authentication, Rate limiting",
     },
@@ -42,7 +42,7 @@ const Projects = () => {
       src: "https://media.istockphoto.com/id/1283532997/vector/podcast-concept-thin-line-icon-abstract-icon-abstract-gradient-background-modern-sound-wave.jpg?s=612x612&w=0&k=20&c=YLg7rHeSuYqeIuGRAcvf2a7J8X8Sx-IkmqYHXIJGPYQ=",
       githubLink: "https://github.com/sainath161/podcast",
       demoLink: "https://podcastreact.netlify.app/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed: "React, Firebase, Ant Design, Axios, Redux",
     },
     {
@@ -51,7 +51,7 @@ const Projects = () => {
       src: "https://logowik.com/content/uploads/images/financely630.logowik.com.webp",
       githubLink: "https://github.com/sainath161/financely",
       demoLink: "https://financelyreact.netlify.app/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed: "React, Firebase, Ant Design, Axios, Redux",
     },
 
@@ -61,7 +61,7 @@ const Projects = () => {
       src: "https://english.makalukhabar.com/wp-content/uploads/2022/09/1600x960_1306284-weather-update.jpg",
       githubLink: "https://github.com/sainath161/WeatherAPI",
       demoLink: "https://sainath161.github.io/WeatherAPI/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed: "HTML, CSS, JavaScript, API",
     },
     {
@@ -70,7 +70,7 @@ const Projects = () => {
       src: "https://i.ytimg.com/vi/SsMn8tT3ZBQ/maxresdefault.jpg",
       githubLink: "https://github.com/sainath161/Youtube-Clone",
       demoLink: "https://sainath161.github.io/Youtube-Clone/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed: "HTML, CSS, JavaScript, API",
     },
     {
@@ -79,7 +79,7 @@ const Projects = () => {
       src: "https://img.freepik.com/premium-photo/happy-diwali-indian-festival-background-with-candles-diwali-day-happy-diwali-day_692702-2604.jpg",
       githubLink: "https://github.com/sainath161/Diwali",
       demoLink: "https://sainath161.github.io/Diwali/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed: "HTML, CSS, JavaScript",
     },
     {
@@ -88,7 +88,7 @@ const Projects = () => {
       src: "https://tnpds.org.in/wp-content/uploads/2022/06/Post-Office.jpg",
       githubLink: "https://github.com/sainath161/user-IP-address",
       demoLink: "https://sainath161.github.io/user-IP-address/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed: "HTML, CSS, JavaScript, API",
     },
     {
@@ -97,7 +97,7 @@ const Projects = () => {
       src: "https://miro.medium.com/v2/resize:fit:1358/0*2zlhkZLM8Fs_opIh",
       githubLink: "https://github.com/sainath161/Excalidraw",
       demoLink: "https://sainath161.github.io/Excalidraw/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed: "HTML, CSS, JavaScript",
     },
     {
@@ -106,7 +106,7 @@ const Projects = () => {
       src: "https://i.ytimg.com/vi/NuKTp7ERino/hqdefault.jpg",
       githubLink: "https://github.com/sainath161/AirBnb-Clone",
       demoLink: "https://sainath161.github.io/AirBnb-Clone/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed: "HTML, CSS, JavaScript, API",
     },
     {
@@ -115,7 +115,7 @@ const Projects = () => {
       src: "https://images.unsplash.com/photo-1663124178632-488f399d5763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGdvb2dsZSUyMG5ld3N8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
       githubLink: "https://github.com/sainath161/Google-sheet-clone",
       demoLink: "https://sainath161.github.io/Google-sheet-clone/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed: "HTML, CSS, JavaScript",
     },
     {
@@ -124,7 +124,7 @@ const Projects = () => {
       src: "https://i.etsystatic.com/22792867/r/il/e8d325/3810008213/il_fullxfull.3810008213_7bn1.jpg",
       githubLink: "https://github.com/sainath161/Spotify-Clone",
       demoLink: "https://sainath161.github.io/Spotify-Clone/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed: "HTML, CSS, Bootstrap",
     },
     {
@@ -133,7 +133,7 @@ const Projects = () => {
       src: "https://inc42.com/wp-content/uploads/2023/03/Weekly-NL-10-March-featured.jpg",
       githubLink: "https://github.com/sainath161/blinkit",
       demoLink: "https://sainath161.github.io/blinkit/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed: "HTML, CSS, Bootstrap",
     },
     {
@@ -142,7 +142,7 @@ const Projects = () => {
       src: "https://img.freepik.com/free-vector/bright-vibrant-set-gradients-background_1017-14552.jpg?w=1380&t=st=1703662143~exp=1703662743~hmac=ea2907b6b4e4192dc546b17d128daf1fa03da64a91bf649106a14327e58e3f2e",
       githubLink: "https://github.com/sainath161/Color_Board",
       demoLink: "https://sainath161.github.io/Color_Board/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed: "HTML, CSS",
     },
     {
@@ -151,7 +151,7 @@ const Projects = () => {
       src: "https://wallpapercave.com/wp/wp3537586.jpg",
       githubLink: "https://github.com/sainath161/Shopping-Cart",
       demoLink: "https://shopping-cart-green-seven.vercel.app/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed: "HTML, CSS, javaScript, React",
     },
     {
@@ -160,7 +160,7 @@ const Projects = () => {
       src: "https://a0.anyrgb.com/pngimg/1548/612/points-system-h-7-rockpaperscissors-rpa-rock-paper-scissors-steemit-scissors-digital-data-paper-icons.png",
       githubLink: "https://github.com/sainath161/Rock-Paper-Scissor",
       demoLink: "https://sainath161.github.io/Rock-Paper-Scissor/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed: "HTML, CSS, JavaScript",
     },
     {
@@ -169,7 +169,7 @@ const Projects = () => {
       src: "https://wallpaperaccess.com/full/8552472.jpg",
       githubLink: "https://github.com/sainath161/Snake-Game",
       demoLink: "https://sainath161.github.io/Snake-Game/",
-      skills: "SKILLS",
+      text: "SKILLS",
       skillUsed: "HTML, CSS, JavaScript",
     },
   ];
@@ -201,7 +201,7 @@ const Projects = () => {
             <ProjectsCard
               key={index}
               title={project.title}
-              skills={project.skills}
+              text={project.text}
               skillUsed={project.skillUsed}
               des={project.des}
               src={project.src}
