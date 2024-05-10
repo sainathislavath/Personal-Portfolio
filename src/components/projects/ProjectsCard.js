@@ -1,16 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
 
-const ProjectsCard = ({ title, des, src, githubLink, demoLink }) => {
+const ProjectsCard = ({
+  title,
+  des,
+  skills,
+  skillUsed,
+  src,
+  githubLink,
+  demoLink,
+}) => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   return (
-    <div className="w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 hover:gray-900 transition-colors duration-1000">
-      <div className="w-full h-[80%] overflow-hidden rounded-lg">
+    <div
+      className="w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 hover:gray-900 transition-colors duration-1000"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <div className="w-full h-[80%] overflow-hidden rounded-lg relative">
         <img
           className="w-full h-60 object-cover group-hover:scale-110 duration-300 cursor-pointer"
           src={src}
           alt="src"
         />
+        {isHovered && (
+          <div className="absolute top-0 left-0 w-full h-full bg-blue-900 bg-opacity-80 flex flex-col justify-center items-center text-white">
+            <h3 className="text-lg font-bold text-designColor">{skills}</h3>
+            <p className="text-l mt-1 p-3 text-justify">{skillUsed}</p>
+          </div>
+        )}
       </div>
       <div className="w-full mt-5 flex flex-col  gap-6">
         <div>
