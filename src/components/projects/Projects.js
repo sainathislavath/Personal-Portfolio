@@ -34,7 +34,7 @@ const Projects = () => {
       demoLink: "https://todo-app-t8k9.onrender.com/",
       skills: "SKILLS",
       skillUsed:
-        "HTML, CSS, JavaScript, Bootstrap, Axios, Node.js, Express.js, MongoDB, Session-based authentication, Rate limiting",
+        "HTML, CSS, JavaScript, ejs, Bootstrap, Axios, Node.js, Express.js, MongoDB, Session-based authentication, Rate limiting",
     },
     {
       title: "PODCAST",
