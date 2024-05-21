@@ -61,7 +61,7 @@ const Contact = () => {
       setMessage("");
       setTimeout(() => {
         setSuccessMsg("");
-      }, 2000);
+      }, 4000);
     } catch (error) {
       setErrMsg("Failed to send email. Please try again later.");
     } finally {
