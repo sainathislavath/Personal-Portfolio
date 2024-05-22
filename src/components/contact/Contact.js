@@ -105,8 +105,7 @@ const Contact = () => {
                     onChange={(e) => setUsername(e.target.value)}
                     value={username}
                     className={`${
-                      errMsg === "Username is required!" &&
-                      "outline-designColor"
+                      errMsg === "Name is required!" && "outline-designColor"
                     } contactInput`}
                     type="text"
                   />
