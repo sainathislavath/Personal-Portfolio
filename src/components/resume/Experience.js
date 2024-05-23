@@ -11,7 +11,7 @@ const Experience = () => {
     >
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          {/* <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p> */}
           <h2 className="text-4xl font-bold">
             Trainer Experience / Internship
           </h2>

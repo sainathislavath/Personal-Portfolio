@@ -43,14 +43,26 @@ const Education = () => {
           <p className="text-sm text-designColor tracking-[4px]">
             2023 - PRESENT
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold">Experience</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Publications</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[auto] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Frontend & Software Developer Intern"
-            subTitle="Trify India Pvt Ltd - (May 2023 - Aug 2023)"
-            result="Bengaluru"
-            des="Electric vehicle installation of sensors and controlling actuators and worked on frontend projects using Angular JS, and React JS."
+            title="Automatic Vacuum Cleaner Robot for Domestic Purpose"
+            subTitle="IJNRD - (May 2023 - PRESENT)"
+            result="Published"
+            des={
+              <span>
+                You can view my published paper{" "}
+                <a
+                  href="https://www.ijnrd.org/papers/IJNRD2303479.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-designColor hover:text-red-700 duration-100"
+                >
+                  here
+                </a>
+              </span>
+            }
           />
           {/* <ResumeCard
             title="Web Developer & Trainer"
