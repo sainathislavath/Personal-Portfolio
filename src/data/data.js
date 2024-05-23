@@ -1,5 +1,5 @@
-import { AiFillAppstore, AiOutlineMenu } from "react-icons/ai";
-import { FaMobile, FaGlobe } from "react-icons/fa";
+import { AiFillAppstore, AiOutlineDeploymentUnit } from "react-icons/ai";
+import { FaGlobe } from "react-icons/fa";
 import { MdAssignmentTurnedIn } from "react-icons/md";
 import { SiProgress, SiAntdesign } from "react-icons/si";
 
@@ -7,7 +7,7 @@ import { SiProgress, SiAntdesign } from "react-icons/si";
 export const featuresData = [
   {
     id: 1,
-    icon: <MdAssignmentTurnedIn />,
+    icon: <AiOutlineDeploymentUnit />,
     title: "Frontend Frameworks",
     des: "Modern tools like React for efficient and dynamic web development, enhancing user experience and interactivity.",
   },
