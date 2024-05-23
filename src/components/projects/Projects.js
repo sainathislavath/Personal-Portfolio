@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import Title from "../layouts/Title";
 import ProjectsCard from "./ProjectsCard";
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const Projects = () => {
   const [showAllProjects, setShowAllProjects] = useState(false);
@@ -211,8 +212,19 @@ const Projects = () => {
           ))}
       </div>
       <div className="flex justify-center mt-8">
-        <button onClick={toggleShowAllProjects} className="download">
-          {showAllProjects ? "Show Less" : "Show More"}
+        <button
+          onClick={toggleShowAllProjects}
+          className="download flex items-center"
+        >
+          {showAllProjects ? (
+            <>
+              Show Less <FaChevronUp className="ml-2" />
+            </>
+          ) : (
+            <>
+              Show More <FaChevronDown className="ml-2" />
+            </>
+          )}
         </button>
       </div>
     </section>
