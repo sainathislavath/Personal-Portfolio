@@ -1,4 +1,4 @@
-<h1 align="center" color="red">Welcome to my Portfolio</h1>
+<h1 align="center">Welcome to my Portfolio</h1>
 Welcome to my portfolio! Here, you'll find a collection of my work, experiences, and projects that showcase my skills and expertise. Whether you're a potential employer, collaborator, or just curious, I'm thrilled to have you explore what I have to offer.
 
 ## How to Navigate
