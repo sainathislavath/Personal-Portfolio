@@ -1,4 +1,4 @@
-# Welcome to my Portfolio
+<h1 align="center">Welcome to my Portfolio</h1>
 Welcome to my portfolio! Here, you'll find a collection of my work, experiences, and projects that showcase my skills and expertise. Whether you're a potential employer, collaborator, or just curious, I'm thrilled to have you explore what I have to offer.
 
 ## How to Navigate
@@ -12,4 +12,5 @@ I'm always open to new opportunities for collaboration and growth. If you're int
 I look forward to connecting with you and discussing how we can work together to achieve our goals.
 
 ## Resume
+
 You can view my resume [here](https://sainathislavath.netlify.app/)
