@@ -29,12 +29,12 @@ const Experience = () => {
             result="ONLINE"
             des="Acquired proficiency in Java programming language with a focus on core concepts such as OOP, inheritance, polymorphism, encapsulation, and abstraction. Experienced in full stack development, proficient in HTML, CSS, JavaScript, React.js for frontend, and Node.js, Express.js for backend. Skilled in MongoDB, and MySQL for database management. Utilizes Bootstrap, Sass, Webpack, and other tools for seamless integration, ensuring optimal performance across the development process."
           />
-          {/* <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
-          /> */}
+          <ResumeCard
+            title="Web Developer Trainee"
+            subTitle="Unified Mentor - (May 2023 - PRESENT)"
+            result="ONLINE"
+            des="I am currently interning as a Web Developer at Unified Mentor, where I am honing my skills in HTML, CSS, and JavaScript to build responsive and interactive web applications. My role involves collaborating with a dynamic team to design, develop, and optimize web solutions. I am gaining valuable experience in both front-end and back-end development, including integrating APIs and ensuring cross-browser compatibility. This internship is providing me with practical, hands-on experience in a professional setting, enhancing my problem-solving abilities, and preparing me for a successful career in web development."
+          />
         </div>
       </div>
       {/* <div>

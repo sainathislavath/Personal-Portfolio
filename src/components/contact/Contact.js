@@ -33,7 +33,7 @@ const Contact = () => {
       setErrMsg("All fields are required!");
       setTimeout(() => {
         setErrMsg("");
-      }, 2000);
+      }, 4000);
       return;
     }
     setLoading(true);
