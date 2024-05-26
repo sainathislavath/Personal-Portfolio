@@ -13,4 +13,4 @@ I look forward to connecting with you and discussing how we can work together to
 
 ## Resume
 
-You can view my resume [here](https://sainathislavath.netlify.app/)
+You can view my resume [Here](https://sainathislavath.netlify.app/)
