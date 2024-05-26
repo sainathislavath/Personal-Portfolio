@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
-import { RiStarFill } from "react-icons/ri";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Title from "../layouts/Title";
-import { testimonialOne, testimonialTwo, quote } from "../../assets";
+import { quote } from "../../assets";
 
 function SampleNextArrow(props) {
   const { onClick } = props;
