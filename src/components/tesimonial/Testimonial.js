@@ -104,15 +104,6 @@ const Testimonial = () => {
                   src="https://i0.wp.com/www.electricalindia.in/wp-content/uploads/2021/08/smart-solar-energy-monitoring-system.jpg?fit=792%2C612&ssl=1"
                   alt="testimonialOne"
                 />
-                {/* <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
-                  </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
-                  <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
-                  </p>
-                </div> */}
               </div>
               <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
                 <img className="w-20 lgl:w-32" src={quote} alt="quote" />
@@ -135,6 +126,7 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
+          
           {/* ================ Slider Two ================== */}
 
           <div className="w-full">
