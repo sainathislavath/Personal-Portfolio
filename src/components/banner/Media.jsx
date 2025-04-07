@@ -34,7 +34,7 @@ const Media = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <a href="https://github.com/sainath161">
+              <a href="https://github.com/sainathislavath">
                 <FaGithubAlt />
               </a>
             </span>

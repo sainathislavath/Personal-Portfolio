@@ -50,7 +50,7 @@ const ContactLeft = () => {
         <div className="flex gap-4">
           <span className="bannerIcon">
             <a
-              href="https://github.com/sainath161"
+              href="https://github.com/sainathislavath"
               target="_blank"
               rel="noopener noreferrer"
             >
