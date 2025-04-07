@@ -101,8 +101,8 @@ const Testimonial = () => {
               <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
                   className="h-72 md:h-72 w-full lgl:h-96 rounded-lg object-cover"
-                  src="https://i0.wp.com/www.electricalindia.in/wp-content/uploads/2021/08/smart-solar-energy-monitoring-system.jpg?fit=792%2C612&ssl=1"
-                  alt="testimonialOne"
+                  src="https://www.researchgate.net/publication/308632165/figure/fig2/AS:410878961831942@1474972586798/The-smart-e-bike-monitoring-system-SEMS-Source-Authors-illustration.png"
+                  alt="IoT based Smart Electric Cycle using Solar Panel"
                 />
               </div>
               <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
@@ -126,7 +126,7 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          
+
           {/* ================ Slider Two ================== */}
 
           <div className="w-full">
@@ -135,17 +135,8 @@ const Testimonial = () => {
                 <img
                   className="h-72 md:h-72 w-full lgl:h-96 rounded-lg object-cover"
                   src="https://s3.amazonaws.com/s3-biz4intellia/images/blog-img13.jpg"
-                  alt="testimonialTwo"
+                  alt="IoT-Based Sewage Pipeline Gas Detection Device"
                 />
-                {/* <div className="w-full flex flex-col justify-end">
-                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
-                  </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
-                  <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
-                  </p>
-                </div> */}
               </div>
               <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
                 <img className="w-20 lgl:w-32" src={quote} alt="quote" />
@@ -177,7 +168,7 @@ const Testimonial = () => {
                 <img
                   className="h-72 md:h-72 w-full lgl:h-96 rounded-lg object-cover"
                   src="https://www.kindpng.com/picc/m/60-608362_smart-home-home-automation-market-us-hd-png.png"
-                  alt="testimonialOne"
+                  alt="Home Automation"
                 />
               </div>
               <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
@@ -210,7 +201,7 @@ const Testimonial = () => {
                 <img
                   className="h-72 md:h-72 w-full lgl:h-96 rounded-lg object-cover"
                   src="https://pixelplex.io/wp-content/uploads/2021/02/blockchain-voting-main-1600.jpg"
-                  alt="testimonialOne"
+                  alt="A Secure De-Centralized Protocol for Voting System"
                 />
               </div>
               <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
@@ -231,6 +222,73 @@ const Testimonial = () => {
                     verifiable vote counting, and scalability for large-scale
                     elections. The system aims to enhance trust and integrity in
                     the electoral process by eliminating central authority.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* ================ HiMedia Project 1 ================== */}
+          <div className="w-full">
+            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+              <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-72 md:h-72 w-full lgl:h-96 rounded-lg object-cover"
+                  src="https://www.himedialabs.com/media/catalog/product/cache/877ab4ac479bafc7781763a993c9e527/m/b/mbes01_1.jpg"
+                  alt="forensic"
+                />
+              </div>
+              <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
+                <img className="w-20 lgl:w-32" src={quote} alt="quote" />
+                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
+                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
+                    <div>
+                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                        Forensic-ID DNA Quantification Software
+                      </h3>
+                    </div>
+                  </div>
+                  <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6 text-justify">
+                    A PHP and SQL-based application designed for forensic labs
+                    to manage DNA quantification data. It streamlines the
+                    reporting workflow by generating detailed quantification
+                    reports, managing sample records, and ensuring secure
+                    role-based access for lab technicians, analysts, and admins.
+                    Focused on improving data accuracy, traceability, and ease
+                    of use in forensic DNA analysis workflows.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* ================ HiMedia Project 2 ================== */}
+          <div className="w-full">
+            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+              <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-72 md:h-72 w-full lgl:h-96 rounded-lg object-cover"
+                  src="https://opentrons.com/wp-content/uploads/2024/06/OT2-R_DOOR_OPEN__72390.1653425430.1280.1280.png"
+                  alt="liqwee-robo"
+                />
+              </div>
+              <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
+                <img className="w-20 lgl:w-32" src={quote} alt="quote" />
+                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
+                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
+                    <div>
+                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                        Liq-Wee Robo Automation
+                      </h3>
+                    </div>
+                  </div>
+                  <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6 text-justify">
+                    A precision automation project for liquid handling robots
+                    used in diagnostics and sample prep. Developed a frontend
+                    interface using React for real-time control and
+                    configuration. Backend integration with microcontrollers and
+                    protocols enables seamless liquid transfer routines, error
+                    handling, and user-level automation customization.
                   </p>
                 </div>
               </div>

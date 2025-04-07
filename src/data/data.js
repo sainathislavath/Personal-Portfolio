@@ -1,44 +1,63 @@
-import { AiFillAppstore, AiOutlineDeploymentUnit } from "react-icons/ai";
-import { FaGlobe } from "react-icons/fa";
-import { MdAssignmentTurnedIn } from "react-icons/md";
+import { AiFillAppstore } from "react-icons/ai";
+import { FaGlobe, FaDatabase, FaCode } from "react-icons/fa";
+import { MdAssignmentTurnedIn, MdOutlineSecurity } from "react-icons/md";
 import { SiProgress, SiAntdesign } from "react-icons/si";
+import { RiTeamLine } from "react-icons/ri";
 
 // Features Data
 export const featuresData = [
   {
     id: 1,
-    icon: <AiOutlineDeploymentUnit />,
-    title: "Frontend Frameworks",
-    des: "Modern tools like React for efficient and dynamic web development, enhancing user experience and interactivity.",
+    icon: <AiFillAppstore />,
+    title: "Application Development",
+    des: "Proficient in developing scalable, user-centric web and mobile applications using modern frameworks, with a focus on performance and usability.",
   },
   {
     id: 2,
-    icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Specializing in innovative app development, I create user-friendly, scalable, and high-performance mobile and web applications for diverse industries.",
+    icon: <FaCode />,
+    title: "Full Stack Development",
+    des: "Experienced in end-to-end development, building robust solutions across frontend, backend, and database layers with clean, maintainable code.",
   },
   {
     id: 3,
-    icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Skilled in SEO optimization, focusing on improving website visibility, driving organic traffic, and boosting search engine rankings.",
+    icon: <FaDatabase />,
+    title: "Database Management",
+    des: "Skilled in designing and managing relational and NoSQL databases such as MySQL, MongoDB, and Firebase for efficient data handling.",
   },
   {
     id: 4,
-    icon: <MdAssignmentTurnedIn />,
-    title: "Debugging and Troubleshooting",
-    des: "Proficient in debugging and troubleshooting software issues, ensuring smooth operation and optimal performance. Strong problem-solving skills.",
+    icon: <MdOutlineSecurity />,
+    title: "Role-Based Access Control",
+    des: "Implemented secure RBAC systems to manage user permissions and ensure data integrity across applications.",
   },
   {
     id: 5,
     icon: <SiAntdesign />,
-    title: "UX Design",
-    des: "Crafting intuitive digital experiences for seamless user interactions, enhancing usability, and maximizing user satisfaction through thoughtful design solutions.",
+    title: "User Experience Design",
+    des: "Focused on crafting clean, intuitive interfaces that prioritize user engagement, accessibility, and seamless interaction flows.",
   },
   {
     id: 6,
+    icon: <MdAssignmentTurnedIn />,
+    title: "Debugging & Optimization",
+    des: "Efficient in identifying and resolving performance bottlenecks, bugs, and technical issues to ensure application stability and responsiveness.",
+  },
+  {
+    id: 7,
+    icon: <SiProgress />,
+    title: "SEO Optimization",
+    des: "Applied best practices to improve search engine visibility, enhance organic reach, and drive targeted traffic to web platforms.",
+  },
+  {
+    id: 8,
     icon: <FaGlobe />,
-    title: "Hosting Websites",
-    des: "Efficiently host websites, ensuring seamless performance, security, and scalability for optimal user experience and business growth.",
+    title: "Web Hosting & Deployment",
+    des: "Experienced in deploying and maintaining applications on scalable hosting environments with a focus on uptime, security, and CI/CD.",
+  },
+  {
+    id: 9,
+    icon: <RiTeamLine />,
+    title: "Agile & Team Collaboration",
+    des: "Collaborated in cross-functional teams using Agile methodologies, version control systems, and task management tools for smooth development cycles.",
   },
 ];

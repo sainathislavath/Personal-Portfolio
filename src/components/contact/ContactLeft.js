@@ -14,25 +14,25 @@ const ContactLeft = () => {
       <img
         className="w-full h-64 object-cover rounded-lg mb-2"
         src={contactImg}
-        alt="contactImg"
+        alt="Sainath Contact"
       />
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">
           Laxmi Sainath Islavath
         </h3>
         <p className="text-lg font-normal text-gray-400">
-          Full Stack Developer
+          Software Engineer
         </p>
         <p className="text-base text-gray-400 tracking-wide text-justify">
-          Feel free to get in touch with me. I am always open to discussing new
-          projects, creative ideas or opportunities to be a part of your
-          visions. Email me with any questions or inquiries. I'll happy to
-          answer your questions and set up a meeting with you.
+          Feel free to get in touch with me. I'm always open to discussing new
+          projects, creative ideas, or exciting opportunities. Email me with any
+          questions or inquiries — I'm happy to connect and schedule a meeting
+          with you.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone:{" "}
           <span className="text-white hover:text-designColor cursor-pointer duration-300">
-            <a href="Tel:9542667793">+91 9542667793</a>
+            <a href="tel:+919542667793">+91 9542667793</a>
           </span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
@@ -44,31 +44,52 @@ const ContactLeft = () => {
           </span>
         </p>
       </div>
+
       <div className="flex flex-col gap-4">
-        <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
+        <h2 className="text-base uppercase font-titleFont mb-4">Find me on</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <a href="https://github.com/sainath161">
+            <a
+              href="https://github.com/sainath161"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithubAlt />
             </a>
           </span>
           <span className="bannerIcon">
-            <a href="https://www.linkedin.com/in/laxmi-sainath-islavath-9213891b6/">
+            <a
+              href="https://www.linkedin.com/in/laxmi-sainath-islavath-9213891b6/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedinIn />
             </a>
           </span>
           <span className="bannerIcon">
-            <a href="https://wa.me/+91 9542667793">
+            <a
+              href="https://wa.me/919542667793"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaWhatsapp />
             </a>
           </span>
           <span className="bannerIcon">
-            <a href="mailto:sainathislavath7@gmail.com">
+            <a
+              href="mailto:sainathislavath7@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaRegEnvelope />
             </a>
           </span>
           <span className="bannerIcon">
-            <a href="https://www.instagram.com/sainath_islavath/">
+            <a
+              href="https://www.instagram.com/sainath_islavath/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaInstagram />
             </a>
           </span>
